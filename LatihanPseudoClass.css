@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    font-family: verdana;
+}
+
+tr,td:first-child {
+    width: 50px;
+}
+
+tr,td {
+    width: 100px;
+    border-bottom: 1px solid #FFFF;
+}
+
+thead td {
+    background-color: aqua;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #81CFE0;
+    color: #FFFF;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #81CFE0;
+    color: #FFFF;
+}
